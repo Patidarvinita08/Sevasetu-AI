@@ -1,0 +1,61 @@
+export const complaints = [
+  {
+    id: "SVS-1001",
+    title: "Garbage accumulation near market",
+    category: "Garbage",
+    location: "Vijay Nagar, Indore",
+    status: "Reported",
+    priority: "High",
+    department: "Municipal Sanitation Department",
+    confidence: 96,
+    date: "25 Sep 2026",
+  },
+
+  {
+    id: "SVS-1002",
+    title: "Large pothole on main road",
+    category: "Road",
+    location: "Palasia, Indore",
+    status: "In Progress",
+    priority: "High",
+    department: "Public Works Department",
+    confidence: 94,
+    date: "24 Sep 2026",
+  },
+
+  {
+    id: "SVS-1003",
+    title: "Streetlight not working",
+    category: "Streetlight",
+    location: "Scheme No. 54, Indore",
+    status: "Resolved",
+    priority: "Medium",
+    department: "Electrical Department",
+    confidence: 91,
+    date: "22 Sep 2026",
+  },
+
+  {
+    id: "SVS-1004",
+    title: "Water leakage near residential area",
+    category: "Water",
+    location: "Bhawarkuan, Indore",
+    status: "Assigned",
+    priority: "High",
+    department: "Water Supply Department",
+    confidence: 93,
+    date: "21 Sep 2026",
+  },
+
+  {
+    id: "SVS-1005",
+    title: "Blocked drainage near community park",
+    category: "Drainage",
+    location: "Rau, Indore",
+    status: "Reported",
+    priority: "Medium",
+    department: "Drainage Department",
+    confidence: 89,
+    date: "20 Sep 2026",
+  },
+];

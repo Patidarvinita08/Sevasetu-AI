@@ -1,0 +1,23 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+
+# Build and cache files
+dist/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local uploads and temporary files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Logs
+*.log
